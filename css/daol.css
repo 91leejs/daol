@@ -9,6 +9,7 @@
     background: url('../img/mainslide1.jpg') no-repeat center top;
     border-bottom: 1px solid whitesmoke;
     position: fixed;
+    z-index: 900;
 }
 
 .head_opa{
@@ -221,7 +222,6 @@
 }
 
 .con_wrap3{
-    width: 100%;
     overflow: hidden;
 }
 
@@ -246,5 +246,253 @@
     line-height: 2;
     letter-spacing: 1px;
 }
+
+.activity{
+    padding: 30px 0;
+}
+
+.activity img{
+    width: 100%;
+}
+
+.activity h3{
+    margin: 20px 0;
+    font-size: 20px;
+}
+
+.activity p{
+    margin-bottom: 20px;
+}
+
+.article{
+    overflow: hidden;
+}
+
+.article .left h3{
+    font-size: 20px;
+}
+
+.article .left p{
+    padding: 10px 0;
+    line-height: 1.5;
+}
+
+.article .right{}
+
+.article .right h3{
+    font-size: 20px;
+}
+
+.article .right p{
+    padding: 10px;
+    line-height: 1.5;
+}
+
+.p_first{
+    border-bottom: 3px solid lightgreen;
+    margin-bottom: 10px;
+}
+
+.article p{
+    line-height: 2;
+    text-align: justify;
+}
+
+/* 포트폴리오 영역 */
+
+.con_inner4{
+    width: 1000px;
+    margin: 0 auto;
+    padding: 100px 0;
+    overflow: hidden;
+}
+
+.img_list{}
+
+.img_list li{
+    float: left;
+    width: calc(100% / 4);
+}
+
+.img_list li div{
+    margin: 30px 0;
+    position: relative;
+}
+
+.img_list li div a{
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0);
+    transition: all 0.5s;
+}
+
+.img_list li div a:hover{
+    background-color: rgba(0,0,0,0.5);
+}
+
+.img_list li div a span{
+    display: block;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: rgba(255,255,255,0.7);
+    line-height: 55px;
+    text-align: center;
+    border-radius: 20px 0px;
+    font-size: 30px;
+    top: calc(50% - 25px);
+    left: calc(50% - 25px);
+    opacity: 0;
+}
+
+.img_list li div a:hover span{
+    opacity: 1;
+}
+
+.img_list li div a span:hover{
+    color: lightskyblue;
+    background-color: rgba(255,255,255,1);
+}
+
+.img_list li div img{
+    width: 100%;
+    display: block;
+}
+
+.img_list li h4{
+    padding: 5px 0;
+}
+
+.img_list li h5{
+    padding: 5px 0;
+}
+
+/* consult 영역 */
+.con_inner5{
+    width: 1000px;
+    margin: 0 auto;
+    padding: 100px 0;
+}
+
+.form_table{
+    width: 100%;
+    /* border: 1px solid black; */
+}
+
+.t_left{
+    width: 30%;
+    background-color: lightslategray;
+    text-align: center;
+    font-weight: bold;
+}
+
+.form_table td{
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.phone2{
+    width: 50px;
+}
+
+.t_right{
+    text-align: right;
+}
+
+.text_pre2{
+    width: 100%;
+    height: 200px;
+    padding: 10px;
+}
+
+.btn{
+    text-align: center;
+    padding: 20px;
+}
+
+.btn input{
+    display: inline-block;
+    line-height: 40px;
+    margin: 20px;
+    width: 80px;
+    height: 40px;
+}
+
+.img_center{
+    text-align: center;
+}
+
+
+.con_inner6{
+    width: 100%;
+    height: 400px;
+    background: url('../img/7-min.jpg') no-repeat center;
+    background-size: 100%;
+    background-attachment: fixed;
+    margin: 0 auto;
+}
+
+.con_inner6_opa{
+    width: 100%;
+    height: 400px;
+    background-color: rgba(0,0,0,0.7);
+    text-align: center;
+    color: white;
+}
+
+.con_inner6_opa h2{
+    padding: 70px 0 30px;
+}
+
+.con_inner6_opa p{
+    padding: 0 0 20px;
+}
+
+.sns{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.sns li{
+    float: left;
+    width: calc(100% / 3);
+}
+
+.sns li span{
+    font-size: 12px;
+}
+
+/* footer 영역 */
+
+.footer{}
+
+.foot_up{
+    background: #444;
+    color: whitesmoke;
+    padding: 50px 0;
+}
+
+.foot_up_inner{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.foot_up_inner h2{}
+
+.foot_up_inner span{}
+
+.foot_down{
+    background-color: black;
+    color: whitesmoke;
+    padding: 25px;
+}
+
+.foot_down_inner{
+    width: 1000px;
+    margin: 0 auto;
+}
+
 
 
